@@ -39,8 +39,8 @@ class Result {
             prevLetter = letter;
             weights.add(currentWeight);
         } 
-        for(int querie : queries){
-            if(weights.contains(querie)){
+        for(int queryNumber : queries){
+            if(weights.contains(queryNumber)){
                 returnValues.add("Yes");
             }else{
                 returnValues.add("No");
